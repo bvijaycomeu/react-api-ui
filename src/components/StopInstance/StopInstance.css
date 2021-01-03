@@ -1,0 +1,20 @@
+._color {
+    background-color: rgba(253, 250, 250, 0.979);
+    color: #00695c;
+    padding: 15px;
+    font-size: medium;
+}
+
+._checkAlign{
+    text-align: center;
+    width: 100%;
+}
+
+
+.btn {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #00695c;
+    padding: 0 1.5rem;
+    color: #ffeb3b;
+  }
