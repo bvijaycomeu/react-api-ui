@@ -12,8 +12,16 @@ class StartInstance extends Component {
     };
   }
 
+
+
   async componentDidMount() {
-    await fetch("/api/v1/instanceid")
+    let opts = { State: "Stop"}
+    const requestOptions = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(opts),
+    };
+    await fetch("/api/v1/instanceid", requestOptions)
       .then((response) => {
         return response.json();
       })
