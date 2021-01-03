@@ -34,8 +34,6 @@ console.log([event.target.name], event.target.value,);
 
   handleSubmit = (event) => {
     const form = event.currentTarget;
-    console.log(this.state.State);
-    console.log(this.state.Selectedid);
     if (
       form.checkValidity() === true ||
       this.state.State !== '' ||

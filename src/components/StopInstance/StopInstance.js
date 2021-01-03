@@ -81,7 +81,7 @@ console.log([event.target.name], event.target.value,);
           >
             <Form.Row className="_color ">
               <Form.Group as={Col} md="4" mr="1">
-                <Form.Label>Stop Instance Id</Form.Label>
+                <Form.Label>Instance Action</Form.Label>
                 <Form.Control
                   as="select"
                   name="State"
@@ -96,7 +96,7 @@ console.log([event.target.name], event.target.value,);
               </Form.Group>
 
               <Form.Group as={Col} md="4" mr="1">
-                <Form.Label>ids</Form.Label>
+                <Form.Label>Instance Id</Form.Label>
                 <Form.Control
                   as="select"
                   name="Selectedid"
@@ -115,7 +115,7 @@ console.log([event.target.name], event.target.value,);
 
               <Form.Group as={Col} md="2" mr="1">
                 <Button variant="primary" type="submit">
-                  Start
+                  Stop
                 </Button>
               </Form.Group>
             </Form.Row>
